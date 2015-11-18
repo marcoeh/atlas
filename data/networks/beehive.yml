@@ -2,12 +2,13 @@
 # Date: 18-11-2015
 # References:
 # - https://en.wikipedia.org/wiki/Beehive
+# - https://upload.wikimedia.org/wikipedia/commons/9/91/Bienen_mit_Brut_2.jpg
 # - http://www.dummies.com/how-to/content/how-honey-bees-communicate.html
 
 definition:
   name: Beehive
   nodes:
-    - Bees
+    - Honey Bees
   edges:
     - Chemical Scents
     - Eye Contact
@@ -28,8 +29,8 @@ attributes:
   reactivity: adaptive
 
 meta:
-  image: fungal_network.jpg
-  abstract: A beehive is an enclosed structure in which some honey bee species of the subgenus Apis live and raise their young. Two methods by which honey bees communicate are of particular interest. One is chemical, the other choreographic. Pheromones are chemical scents that animals produce to trigger behavioral responses from the other members of the same species. Honey-bee pheromones provide the “glue” that holds the colony together. The three castes of bees produce various pheromones at various times to stimulate specific behaviors. Perhaps the most famous and fascinating “language” of the honey bee is communicated through a series of dances done by foraging worker bees who return to the hive with news of nectar, pollen, or water.
+  image: beehive.jpg
+  abstract: A beehive is structure in which honey bees live and raise their young. Honey bees communicate through chemical and choreographic methods. Pheromones are chemical scents that animals produce to trigger behavioral responses from the other members of the same species. Bees produce various pheromones at various times to stimulate specific behaviors. Perhaps the most famous and fascinating “language” of the honey bee is communicated through a series of dances done by foraging worker bees who return to the hive with news of nectar, pollen, or water.
 
 graph:
   nodes:
