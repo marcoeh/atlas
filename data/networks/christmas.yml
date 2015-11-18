@@ -1,0 +1,48 @@
+
+# Author: Marco Ehrenmann
+# Date: 18-11-2015
+# References:
+# - https://upload.wikimedia.org/wikipedia/commons/6/62/Gifts_xmas.jpg
+
+definition:
+  name: Christmas
+  nodes:
+    - Family Members
+    - Friends
+    - Santa Claus
+    - Contractors
+    - Clients
+  edges:
+    - Gifting presents
+  mediums:
+    - Something you probably needed badly
+
+attributes:
+  topology: distributed
+  scale: global
+  kind: artificial
+  origin: evolved
+  visibility: visible
+  usage: transportation
+  arrangement: dynamic
+  perception: separately
+  stability: ephemeral
+  reactivity: limited
+
+meta:
+  image: christmas.jpg
+  abstract: During a certain time at the end of each year everyone gets all excited and wraps some things they think others like in fancy paper. After all these presents are given and received the network decays slowly.
+
+graph:
+  nodes:
+    f1: Family Member
+    f2: Family Member
+    f3: Family Member
+    f4: Family Member
+    s1: Santa Claus
+    c1: Contractor
+    d1: Client
+    d2: Client
+  edges:
+    - s1:f1 s1:f2 s1:f3 s1:f4
+    - c1:d1 c1:d2
