@@ -1,0 +1,47 @@
+# Author: Marco Ehrenmann
+# Date: 18-11-2015
+# References:
+# - https://upload.wikimedia.org/wikipedia/commons/2/26/Sewer_Plant.jpg
+
+definition:
+  name: Sewerage
+  nodes:
+    - Toilets
+    - Sinks
+    - Manholes
+    - Sewage-treatment Plants
+  edges:
+    - Pipes
+  mediums:
+    - Sewage
+
+attributes:
+  topology: distributed
+  scale: global
+  kind: artificial
+  origin: evolved
+  visibility: visible
+  usage: transportation
+  arrangement: static
+  perception: partially
+  stability: durable
+  reactivity: limited
+
+meta:
+  image: sewerage.jpg
+  abstract: A sewerage is a system for the collection and discharge of sewage, wastewater, rain or melt water through underground pipes towards a treatment plant.
+
+graph:
+  nodes:
+    p1: Sewage-treatment Plant
+    t1: Toilet
+    t2: Toilet
+    t3: Toilet
+    s1: Sink
+    s2: Sink
+    s3: Sink
+    m1: Sink
+  edges:
+    - p1:t1 p1:t2 p1:t3 p1:t4
+    - p1:s1 p1:s2 p1:s3 p1:s4
+    - p1:m1
