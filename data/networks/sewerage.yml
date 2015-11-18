@@ -40,7 +40,7 @@ graph:
     s1: Sink
     s2: Sink
     s3: Sink
-    m1: Sink
+    m1: Manhole
   edges:
     - p1:t1 p1:t2 p1:t3 p1:t4
     - p1:s1 p1:s2 p1:s3 p1:s4
